@@ -8,8 +8,8 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 // @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/features/end-2-end-shop-process.feature")
-//@CucumberOptions(features="src/test/resources/features", glue="cucumber.steps")
+//@CucumberOptions(features="src/test/resources/features/end-2-end-shop-process.feature")
+@CucumberOptions(features="src/test/resources/features", glue="cucumber.steps")
 public class End2EndShopProcessRunner {
 
 }
